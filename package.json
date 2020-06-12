@@ -1,6 +1,6 @@
 {
-  "name": "react-native-react-native-hotspot",
-  "title": "React Native React Native Hotspot",
+  "name": "react-native-hotspot",
+  "title": "React Native Hotspot",
   "version": "1.0.0",
   "description": "TODO",
   "main": "index.js",
@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-react-native-hotspot.git",
-    "baseUrl": "https://github.com/github_account/react-native-react-native-hotspot"
+    "url": "git+https://github.com/github_account/react-native-hotspot.git",
+    "baseUrl": "https://github.com/github_account/react-native-hotspot"
   },
   "keywords": [
     "react-native"
