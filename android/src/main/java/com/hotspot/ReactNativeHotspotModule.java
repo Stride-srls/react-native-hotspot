@@ -36,6 +36,7 @@ public class ReactNativeHotspotModule extends ReactContextBaseJavaModule {
     public ReactNativeHotspotModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
+        reactContext.addLifecycleEventListener(this);
         hotspot = new HotspotManager(reactContext);
     }
  
