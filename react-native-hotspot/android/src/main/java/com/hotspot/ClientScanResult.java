@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package info.whitebyte.hotspotmanager;
+package com.hotspot;
 
 public class ClientScanResult {
     private String IpAddr;

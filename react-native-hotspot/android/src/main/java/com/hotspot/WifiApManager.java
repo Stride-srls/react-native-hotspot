@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package info.whitebyte.hotspotmanager;
+package com.hotspot;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
