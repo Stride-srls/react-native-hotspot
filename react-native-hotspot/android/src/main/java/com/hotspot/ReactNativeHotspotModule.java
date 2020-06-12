@@ -31,7 +31,7 @@ public class ReactNativeHotspotModule extends ReactContextBaseJavaModule {
         this.reactContext = reactContext;
         hotspot = new HotspotManager(reactContext);
     }
-
+ 
     @Override
     public String getName() {
         return "ReactNativeHotspot";
