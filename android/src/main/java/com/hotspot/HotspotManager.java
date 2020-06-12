@@ -53,10 +53,10 @@ public class HotspotManager {
                 config.allowedAuthAlgorithms.set(WifiConfiguration.AuthAlgorithm.OPEN);
                 if(info.hasKey("protocols")) {
                     switch(info.getInt("protocols")) {
-                        case HotspotModule.protocols.WPA:
+                        case ReactNativeHotspotModule.protocols.WPA:
                             config.allowedProtocols.set(WifiConfiguration.Protocol.WPA);
                             break;
-                        case HotspotModule.protocols.RSN:
+                        case ReactNativeHotspotModule.protocols.RSN:
                             config.allowedProtocols.set(WifiConfiguration.Protocol.RSN);
                             break;
                         default:
@@ -68,13 +68,13 @@ public class HotspotManager {
                     }
                 } if(info.hasKey("securityType")) {
                     switch(info.getInt("securityType")) {
-                        case HotspotModule.security.IEEE8021X:
+                        case ReactNativeHotspotModule.security.IEEE8021X:
                             config.allowedKeyManagement.set(WifiConfiguration.KeyMgmt.IEEE8021X);
                             break;
-                        case HotspotModule.security.WPA_EAP:
+                        case ReactNativeHotspotModule.security.WPA_EAP:
                             config.allowedKeyManagement.set(WifiConfiguration.KeyMgmt.WPA_EAP);
                             break;
-                        case HotspotModule.security.WPA_PSK:
+                        case ReactNativeHotspotModule.security.WPA_PSK:
                             config.allowedKeyManagement.set(WifiConfiguration.KeyMgmt.WPA_PSK);
                             break;
                         default:
@@ -83,10 +83,10 @@ public class HotspotManager {
                     }
                 } if(info.hasKey("authAlgorithm")) {
                     switch(info.getInt("authAlgorithm")) {
-                        case HotspotModule.authAlgorithm.LEAP:
+                        case ReactNativeHotspotModule.authAlgorithm.LEAP:
                             config.allowedAuthAlgorithms.set(WifiConfiguration.AuthAlgorithm.LEAP);
                             break;
-                        case HotspotModule.authAlgorithm.OPEN:
+                        case ReactNativeHotspotModule.authAlgorithm.OPEN:
                             config.allowedAuthAlgorithms.set(WifiConfiguration.AuthAlgorithm.OPEN);
                             break;
                         default:
